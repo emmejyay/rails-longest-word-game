@@ -1,0 +1,12 @@
+<h1>Result</h1>
+<br>
+<%= if @is_english_word = true %>
+  <p>You won!</p>
+<% else %>
+  <p>Your word choice was incorrect!</p>
+<br>
+<br>
+<%= link_to "Play again", new_path %>
+
+
+ <%# && @is_valid_word == true %>
